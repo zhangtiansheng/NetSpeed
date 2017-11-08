@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"            
+        android:orientation="horizontal">  
+ 
+        
+        <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+          
+         
+            <ImageView  
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"   
+           android:id="@+id/img1"
+           android:layout_marginTop="4px"
+            android:layout_marginLeft="11px"
+            android:src="@drawable/meminfo"
+            android:visibility="gone"
+            />  
+            
+            <ImageView  
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"   
+          android:id="@+id/img2"      
+          
+            android:src="@drawable/close"/>  
+           
+              <LinearLayout   
+               android:id="@+id/Lin"    
+              android:orientation="vertical"   
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"  
+              android:layout_marginLeft="42px"
+            android:gravity="center_vertical"  
+             >
+            <TextView   
+                android:id="@+id/memunused"   
+                android:layout_width="wrap_content"   
+                android:layout_height="wrap_content"    
+                android:layout_weight="0.4"   
+                android:gravity="right"  
+                
+                android:textColor="#FFFFFF"  
+                />  
+          
+            <TextView   
+                android:gravity="right"   
+                android:id="@+id/memtotal"   
+                android:paddingRight="10.0dip"   
+                android:layout_width="wrap_content"   
+                android:layout_height="wrap_content"   
+                android:layout_weight="0.4"  
+                 android:layout_marginBottom="3px"
+                android:textColor="#FFFFFF"  
+                 />  
+              
+        </LinearLayout>  
+          </RelativeLayout>
+        
+    </LinearLayout>  
